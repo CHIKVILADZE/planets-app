@@ -97,7 +97,7 @@ let style = {
        
       
       
-      {showList == true ? <MobileList handleClick0={handleClick}/> : 
+      {showList === true ? <MobileList showList={showList} setShowList={setShowList} handleClick={handleClick} /> : 
       
        <Routes>
        
@@ -170,10 +170,13 @@ const Header = styled.div`
   height:69px;
   padding-left:32px;
   padding-right:41px;
+  border-bottom: 2px solid grey;
+  
   display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
 
   @media screen and (max-width:1000px){
     flex-direction:column;

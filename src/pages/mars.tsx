@@ -4,7 +4,7 @@ import mars from '../assets/planet-mars.svg'
 import marsgeo from '../assets/geology-mars.png'
 import marsint from '../assets/planet-mars-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles';
+import GlobalStyles from '../components/GlobalStyles'
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -329,7 +329,7 @@ const Info = styled.div`
  
 
   @media screen and (max-width:1000px){
-    width:100%;
+    width:90%;
     height:253px;
     display:flex;
     flex-direction: row;
@@ -388,7 +388,7 @@ opacity:0.5;
   
 `
 const Infosection = styled.div`
-  width:100%;
+  width:90%;
   height:176px;
 
   margin-top:39px;
@@ -396,17 +396,23 @@ const Infosection = styled.div`
   flex-direction: column;
   gap:16px;
 
+  @media screen and (max-width:1000px){
+    width:80%;
+    
+    
+  }
   @media screen and (max-width:550px){
     display:none;
   }
 `
 
 const InfoBox =styled.button`
-  width:95%;
+  width:90%;
   height:48px;
   border:1px solid white;
   font-family: 'Spartan';
   font-style: normal;
+  background-color:#070724;
   font-weight: 700;
   font-size: 12px;
   line-height: 25px;

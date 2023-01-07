@@ -329,7 +329,7 @@ const Info = styled.div`
  
 
   @media screen and (max-width:1000px){
-    width:100%;
+    width:90%;
     height:253px;
     display:flex;
     flex-direction: row;
@@ -402,9 +402,10 @@ const Infosection = styled.div`
 `
 
 const InfoBox =styled.button`
-  width:95%;
+  width:90%;
   height:48px;
   border:1px solid white;
+  background-color:#070724;
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 700;
@@ -416,6 +417,7 @@ const InfoBox =styled.button`
   letter-spacing: 2.57143px;
   text-transform: uppercase;
   color: #FFFFFF;
+
 
   &:hover  {
     background-color:#6D2ED5;

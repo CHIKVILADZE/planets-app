@@ -328,7 +328,7 @@ const Info = styled.div`
  
 
   @media screen and (max-width:1000px){
-    width:100%;
+    width:90%;
     height:253px;
     display:flex;
     flex-direction: row;
@@ -387,13 +387,18 @@ opacity:0.5;
   
 `
 const Infosection = styled.div`
-  width:100%;
+  width:90%;
   height:176px;
-
+ border:none;
   margin-top:39px;
   display:flex;
   flex-direction: column;
   gap:16px;
+
+  @media screen and (max-width:1000px){
+    width:70%;
+    
+  }
 
   @media screen and (max-width:550px){
     display:none;
@@ -401,13 +406,14 @@ const Infosection = styled.div`
 `
 
 const InfoBox =styled.button`
-  width:95%;
+  width:100%;
   height:48px;
   border:1px solid white;
   font-family: 'Spartan';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
+  background-color:#070724;
   line-height: 25px;
   display:flex;
   align-items:center;
