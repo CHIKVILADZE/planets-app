@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/planets-app/static/css/main.9c4087fb.css",
-    "main.js": "/planets-app/static/js/main.4943f2c4.js",
+    "main.css": "/planets-app/static/css/main.d1beade6.css",
+    "main.js": "/planets-app/static/js/main.49820cda.js",
     "static/media/geology-mercury.png": "/planets-app/static/media/geology-mercury.aa6732c318454e3fc480.png",
     "static/media/geology-venus.png": "/planets-app/static/media/geology-venus.484f9dacbeb3b555ffba.png",
     "static/media/geology-mars.png": "/planets-app/static/media/geology-mars.d3ffce8e1e9b9bc5df60.png",
@@ -31,11 +31,11 @@
     "static/media/icon-source.svg": "/planets-app/static/media/icon-source.90231c6845b7449a736412f3da2e3aaa.svg",
     "static/media/icon-hamburger.svg": "/planets-app/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
     "static/media/icon-chevron.svg": "/planets-app/static/media/icon-chevron.8915cee97f993fb990aac66c578ad575.svg",
-    "main.9c4087fb.css.map": "/planets-app/static/css/main.9c4087fb.css.map",
-    "main.4943f2c4.js.map": "/planets-app/static/js/main.4943f2c4.js.map"
+    "main.d1beade6.css.map": "/planets-app/static/css/main.d1beade6.css.map",
+    "main.49820cda.js.map": "/planets-app/static/js/main.49820cda.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c4087fb.css",
-    "static/js/main.4943f2c4.js"
+    "static/css/main.d1beade6.css",
+    "static/js/main.49820cda.js"
   ]
 }
