@@ -4,7 +4,7 @@ import saturn from '../assets/planet-saturn.svg'
 import saturngeo from '../assets/geology-saturn.png'
 import saturnint from '../assets/planet-saturn-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles'
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Saturn({overview, setOverview, structure, setStructure, 
 
   return (
     <>
-    <GlobalStyles/>
+   
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>

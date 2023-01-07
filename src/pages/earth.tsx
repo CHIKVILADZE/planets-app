@@ -4,7 +4,7 @@ import earth from '../assets/planet-earth.svg'
 import earthgeo from '../assets/geology-earth.png'
 import earthint from '../assets/planet-earth-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles';
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Earth({overview, setOverview, structure, setStructure, s
 
   return (
     <>
-    <GlobalStyles/>
+
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>
@@ -388,13 +388,18 @@ opacity:0.5;
   
 `
 const Infosection = styled.div`
-  width:100%;
+  width:90%;
   height:176px;
 
   margin-top:39px;
   display:flex;
   flex-direction: column;
   gap:16px;
+
+  @media screen and (max-width:1000px){
+    width:70%;
+    
+  }
 
   @media screen and (max-width:550px){
     display:none;

@@ -4,10 +4,10 @@ import venus from '../assets/planet-venus.svg'
 import venusgeo from '../assets/geology-venus.png'
 import venusint from '../assets/planet-venus-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles';
 import source from '../assets/icon-source.svg'
-
 import {Props} from '../interface'
+
+
 
 
 
@@ -46,7 +46,7 @@ export default function Venus({overview, setOverview, structure, setStructure, s
 
   return (
     <>
-    <GlobalStyles/>
+    
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>

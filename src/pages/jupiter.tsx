@@ -4,7 +4,7 @@ import jupiter from '../assets/planet-jupiter.svg'
 import jupitergeo from '../assets/geology-jupiter.png'
 import jupiterint from '../assets/planet-jupiter-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles'
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Jupiter({overview, setOverview, structure, setStructure,
 
   return (
     <>
-    <GlobalStyles/>
+
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>

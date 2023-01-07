@@ -4,7 +4,7 @@ import neptune from '../assets/planet-neptune.svg'
 import neptunegeo from '../assets/geology-neptune.png'
 import neptuneint from '../assets/planet-neptune-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles'
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Neptune({overview, setOverview, structure, setStructure,
 
   return (
     <>
-    <GlobalStyles/>
+   
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>
@@ -564,7 +564,7 @@ const ResultNums = styled.p`
   font-family: 'Antonio';
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 40px;
   line-height: 52px;
   letter-spacing: -1.5px;
   text-transform: uppercase;

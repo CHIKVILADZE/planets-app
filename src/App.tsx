@@ -10,8 +10,9 @@ import Saturn from './pages/saturn';
 import Uranus from './pages/uranus';
 import Jupiter from './pages/jupiter';
 import hamburger from './assets/icon-hamburger.svg'
-import GlobalStyles from './components/GlobalStyles';
+
 import MobileList from './components/mobileList';
+import background from './assets/background.svg'
 
 
 
@@ -55,7 +56,7 @@ let style = {
   return (
   
     <Container>
-      <GlobalStyles/>
+      
       <Header>
           <Title>THE PLANETS</Title>
           <Img onClick={handleClick} src={hamburger}/>
@@ -156,6 +157,7 @@ export default App;
 const Container = styled.div`
   height:100%;
   background-color:#070724;
+  background-image: url(${background});
 
  
   display:flex;

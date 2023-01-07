@@ -4,7 +4,7 @@ import uranus from '../assets/planet-uranus.svg'
 import uranusgeo from '../assets/geology-uranus.png'
 import uranusint from '../assets/planet-uranus-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles'
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Uranus({overview, setOverview, structure, setStructure, 
 
   return (
     <>
-    <GlobalStyles/>
+  
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>

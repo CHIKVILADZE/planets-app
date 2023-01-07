@@ -4,7 +4,7 @@ import mars from '../assets/planet-mars.svg'
 import marsgeo from '../assets/geology-mars.png'
 import marsint from '../assets/planet-mars-internal.svg'
 import data from '../data.json'
-import GlobalStyles from '../components/GlobalStyles'
+
 import source from '../assets/icon-source.svg'
 
 import {Props} from '../interface'
@@ -46,7 +46,7 @@ export default function Mars({overview, setOverview, structure, setStructure, su
 
   return (
     <>
-    <GlobalStyles/>
+
     <Main>
       <MobileInfo>
         <MobileText onClick={handleClick1}>OVERVIEW</MobileText>

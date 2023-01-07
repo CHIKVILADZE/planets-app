@@ -4,7 +4,7 @@ import mercury from "../assets/planet-mercury.svg";
 import mercurygeo from "../assets/geology-mercury.png";
 import mercuryint from "../assets/planet-mercury-internal.svg";
 import data from "../data.json";
-import GlobalStyles from "../components/GlobalStyles";
+
 import source from "../assets/icon-source.svg";
 
 import { Props } from "../interface";
@@ -42,7 +42,7 @@ export default function Mercury({
 
   return (
     <>
-      <GlobalStyles />
+   
       <Main>
         <MobileInfo>
           <MobileText onClick={handleClick1}>OVERVIEW</MobileText>
